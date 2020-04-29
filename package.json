@@ -1,0 +1,9 @@
+{
+  "name": "moviesthesedays",
+  "version": "1.0.0",
+  "description": "Puppeteer Study, Crawling movies these day",
+  "main": "index.ts",
+  "repository": "https://github.com/gtg7784/moviesthesedays",
+  "author": "gtg7784",
+  "license": "MIT"
+}
