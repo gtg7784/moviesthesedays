@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node index.ts",
+    "dev": "nodemon --watch index.ts --delay 1 --exec 'ts-node' index.ts --unhandled-rejections=strict",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -15,12 +16,12 @@
     "dotenv": "^8.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "fs": "^0.0.1-security",
     "nodemailer": "^6.4.6",
     "puppeteer": "^3.0.2",
     "puppeteer-core": "^3.0.2"
   },
   "devDependencies": {
+    "nodemon": "^2.0.3",
     "ts-node": "^8.9.1",
     "typescript": "^3.8.3"
   }
